@@ -14,7 +14,7 @@ module.exports = {
   },
   ignorePatterns: [".eslintrc.js", "/client"],
   rules: {
-    "no-console": "error",
+    "no-console": "off",
     "no-unused-vars": "error",
     "@typescript-eslint/no-unused-vars": [
       "error",

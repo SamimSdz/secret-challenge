@@ -1,6 +1,6 @@
 {
-  "watch": ["src"],
-  "ext": ".ts,.js",
-  "ignore": [],
+  "watch": ["."],
+  "ext": ".ts,.js,.csv",
+  "ignore": ["node_modules"],
   "exec": "npx ts-node ./cli.ts"
 }
