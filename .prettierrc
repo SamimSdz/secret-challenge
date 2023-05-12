@@ -1,0 +1,7 @@
+{
+  "plugins": ["./node_modules/prettier-plugin-import-sort/src"],
+  "bracketSpacing": true,
+  "singleQuote": false,
+  "trailingComma": "all",
+  "printWidth": 120
+}
