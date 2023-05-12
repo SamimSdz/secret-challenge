@@ -5,7 +5,7 @@
   "main": "cli.js",
   "scripts": {
     "start:dev": "npx nodemon -- input.csv",
-    "build": "rimraf ./cli.js && tsc",
+    "build": "rimraf ./cli.js && rimraf ./output.csv && tsc",
     "start": "npm run build && node cli.js input.csv > output.csv",
     "lint": "eslint **/*.ts"
   },
