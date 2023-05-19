@@ -6,11 +6,11 @@
   "scripts": {
     "start:dev": "npx nodemon -- input.csv",
     "build": "rimraf ./cli.js && rimraf ./output.csv && tsc",
-    "start": "npm run build && node cli.js input.csv > output.csv",
+    "start": "node cli.js input.csv > output.csv",
     "lint": "eslint **/*.ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "samimsdz@icloud.com",
   "license": "ISC",
   "dependencies": {
     "csv-parser": "^3.0.0"
